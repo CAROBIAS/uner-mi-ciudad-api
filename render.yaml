@@ -5,6 +5,7 @@ services:
     name: api-mi-ciudad
     runtime: docker
     plan: free
+    region: virginia
     healthCheckPath: /salud
     envVars:
       - key: ENTORNO
